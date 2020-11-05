@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="cairo">Cairo</string>
+    <string name="events">Events</string>
+    <string name="places">Places</string>
+    <string name="resturants">Resturants</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="asd">asdasdasdfasdfasdgasdfjkahsnldkjfaslkdjfhlansdkjfhasdf asdfaksjhdflkajsdl;fkajsdlojiafh;lskdjaflkjshdf;lkajsdl;kjfhl;askdj;lfkajdflkjasdf asdiufhaslkdjf;alksjd;lfkajsd;lkfjas;lkdjghsdgfhsdfgsdfgsdfhsdfgsdfgsdhsdfgsjwretrw fgsdfdshjsdfgshsdfshjsdfsyhwetyuwefgsdfgewqrywergtwefgsdjsdyrtwetjhudfgsdfgwqerhywefgsadfgsdj sdfgsdhjsdfgsdhwertwedfasdfgasdfgsdhjsdrtgsdgrsdg</string>
+    <string name="location">Location:</string>
+    <string name="about">About</string>
+</resources>

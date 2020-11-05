@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlaceViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/placeViewParent"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/ImageGallery"
+                tools:listitem="@layout/list_item_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageButton
+                android:id="@+id/leftArrow"
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/left_arrow"
+                tools:ignore="ContentDescription"
+                android:background="?android:selectableItemBackground"/>
+
+            <ImageButton
+                android:id="@+id/rightArrow"
+                android:layout_margin="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/right_arrow"
+                tools:ignore="ContentDescription"
+                android:background="?android:selectableItemBackground"
+                android:layout_alignParentEnd="true" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/StringLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="@string/location"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:textColor="#99FF0000"/>
+
+        <ImageButton
+            android:id="@+id/PlaceLocation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="?android:selectableItemBackground"
+            android:tint="#FF0000"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/ic_menu_mylocation"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/aboutText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Giza"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:autoLink="web"
+            android:id="@+id/desc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/asd"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>
